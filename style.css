@@ -1,0 +1,182 @@
+html * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+}
+img {
+  max-width: 100%;
+}
+header {
+  background-color: #f5f5dc;
+  height: 220px;
+  background-image: url("img/biblioteca.jpg");
+  background-position: center;
+  background-size: cover;
+}
+h1 {
+  color: red;
+  text-align: center;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 2px pink;
+  font-size: 50px;
+  padding-top: 30px;
+}
+.grid-nav {
+  padding-left: 20px;
+  display: inline;
+}
+h2 {
+  color: white;
+  background-color: gray;
+  text-align: center;
+  font-size: 35px;
+}
+.livro {
+  color: brown;
+  background-color: #f5f5dc;
+  text-align: center;
+  font-size: 30px;
+  margin-left: 430px;
+  margin-right: 430px;;
+  margin-top: 20px;
+}
+#titulo {
+  grid-column: 1 / 4;
+}
+h3 {
+  color: gray;
+  margin: 20px 10px;
+  text-decoration: underline;
+}
+.texto {
+  background-color: #d3d3d3;
+}
+p {
+  margin: 20px 10px;
+}
+.grid-nav {
+  font-weight: bold;
+}
+.grid-nav-page:hover {
+  color: red;
+  padding-left: 20px;
+  text-decoration: none;
+  margin-right: 20px;
+}
+ .grid-main-index {
+  display: grid;
+  grid-template-columns: repeat(3 1fr);
+  grid-gap: 22px;
+  padding: 0;
+  }
+.btn {
+  background-color: brown;
+  color: #fff;
+  display: inline-block;
+  font-size: 15px;
+  letter-spacing: 2px;
+  padding: 10px 20px;
+  margin: 20px 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.btn:hover {
+  background-color: red;
+  text-decoration: underline;
+}
+footer {
+  background-color: #f5f5dc;
+  color: #fff;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 2px brown;
+  color: purple;
+  justify-content: center;
+}
+
+
+
+
+
+
+.main-container {
+  max-width: 100%;
+  padding: 20px;
+  background-color: #d3d3d3;
+}
+.subtitulo {
+  color: white;
+  background-color: gray;
+  padding: 15px;
+}
+.titulo2 {
+  color: black;
+  align-items: center;
+}
+  p {
+    text-align: justify;
+}
+.linha {
+  text-decoration: underline;
+}
+.redator {
+  float: right;
+  width: 150px;
+  padding-top: 40px;
+  padding-left: 10px;
+}
+.aumento {
+  font-size: 20px;
+}
+
+
+
+
+
+.leitura {
+  background-color: #ffffe1;
+  color: brown;
+}
+.favorito {
+  color: white;
+  letter-spacing: 2px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  background-color: gray;
+  margin-right: 250px;
+  margin-left: 250px;
+}
+.numero {
+  color:red;
+  font-size: 30px;
+}
+.obra {
+  color: black;
+  font-weight: bold;
+  font-size: 25px;
+}
+.comentario {
+  color: gray;
+}
+.caixa {
+  display: grid;
+  background-color: #ffffe1;
+  margin-right: 250px;
+  margin-left: 250px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.leitor {
+  float: left;
+  width: 240px;
+  padding-left: 3px;
+  padding-top: 20px;
+}
